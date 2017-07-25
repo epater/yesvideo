@@ -1,0 +1,30 @@
+{
+  "name": "yesvideo",
+  "version": "1.0.0",
+  "description": "A web app for media company",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epater/yesvideo.git"
+  },
+  "keywords": [
+    "photography",
+    "video",
+    "dnepr",
+    "wordpress",
+    "js"
+  ],
+  "author": "Alexander Fedorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epater/YesProd/issues"
+  },
+  "homepage": "https://github.com/epater/YesProd#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
