@@ -7,7 +7,7 @@
 		<meta class="foundation-mq">
 
     <!--Title-->
-		<title>Цены | YesVideo</title>
+		<title><?php if(is_home()) { echo bloginfo("name"); echo wp_title(); echo " | "; echo bloginfo("description");} else { echo wp_title(" | ", false, right); echo bloginfo("name"); } ?></title>
 
 		<!-- If Site Icon isn't set in customizer -->
     <?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) { ?>
