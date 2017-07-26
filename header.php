@@ -23,9 +23,6 @@
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<meta name="author" content="">
-
-    <!--Styles-->
-		<link rel="stylesheet" href="style.css">
 		<?php wp_head(); ?>
 	</head>
 
@@ -53,26 +50,6 @@
 					<!--Menu-->
 					<div id="top-menu">
 					  <?php joints_top_nav(); ?>
-						<ul class="menu vertical large-horizontal align-right">
-							<li>
-								<a href="index.html">Главная</a>
-							</li>
-							<li>
-								<a href="http://yesvideo.com.ua/school/">Школа</a>
-							</li>
-							<li>
-								<a href="video.html">Видео</a>
-							</li>
-							<li>
-								<a href="photo.html">Фото</a>
-							</li>
-							<li>
-								<a href="price.html">Цены</a>
-							</li>
-							<li>
-								<a href="about.html">О нас</a>
-							</li>
-						</ul>
 					</div>
 				</div>
 			</div>

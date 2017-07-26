@@ -1,32 +1,16 @@
-<?php get_header(); ?>
-			
-	<div id="content">
-	
-		<div id="inner-content" class="row">
-	
-		    <main id="main" class="large-8 medium-8 columns" role="main">
-		    
-			    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			 
-					<!-- To see additional archive styles, visit the /parts directory -->
-					<?php get_template_part( 'parts/loop', 'archive' ); ?>
-				    
-				<?php endwhile; ?>	
+<?php
+/**
+ * Created by PhpStorm.
+ * User: magic_unicorn
+ * Date: 26/07/2017
+ * Time: 20:26
+ */
 
-					<?php joints_page_navi(); ?>
-					
-				<?php else : ?>
-											
-					<?php get_template_part( 'parts/content', 'missing' ); ?>
-						
-				<?php endif; ?>
-																								
-		    </main> <!-- end #main -->
-		    
-		    <?php get_sidebar(); ?>
+get_header();
+?>
 
-		</div> <!-- end #inner-content -->
+    <h1>Hello World!</h1>
 
-	</div> <!-- end #content -->
-
-<?php get_footer(); ?>
+<?php
+get_footer();
+?>
